@@ -29,6 +29,7 @@
   <configuration>
     <url>http://localhost:8080/manager/html</url>
      <server>TomcatServer</server>
+     <path>/${project.build.finalName}</path>
   </configuration>
 </plugin>
     </plugins>
