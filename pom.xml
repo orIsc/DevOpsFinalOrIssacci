@@ -20,6 +20,7 @@
         <version>3.2.3</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
+          <outputDirectory>/Users/orissacci/Downloads/devops/apache-tomcat-8.5.50/webapps/</outputDirectory>
         </configuration>
       </plugin>
       <plugin>
@@ -29,7 +30,6 @@
   <configuration>
     <url>http://localhost:8080/manager/html</url>
      <server>TomcatServer</server>
-     <path>/${project.build.finalName}</path>
   </configuration>
 </plugin>
     </plugins>
